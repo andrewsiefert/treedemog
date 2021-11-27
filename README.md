@@ -5,4 +5,7 @@ Demographic data come from the USFS Forest Inventory and Analysis (FIA) program.
 
 The models are written in Stan and fit in R using RStan. The models take one or more days to fit on a good desktop or HPC cluster. The model output files are also too big to fit on GitHub, but I've included RMarkdown files that show model diagnostics, parameter estimates, model checks, etc.
 
+The models describe the effects of traits on demographic rates (i.e., performance landscapes) and how they vary across the temperature gradient using multivariate Gaussian functions. Performance landscapes showing the effects of wood density and specific leaf area on growth, survival, and recruitment (as well as fitness, estimated using integral projection models) are shown below:
+
+
 ![](results/wd_sla_landscapes.PNG?raw=true)
